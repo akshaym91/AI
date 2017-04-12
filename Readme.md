@@ -17,3 +17,18 @@ Types of environment:
 - Discrete or Continuous
 - Benign or Adverserial
 
+Definition of problem:
+- Initial State
+- Actions(s): {a, b, c}
+- Result(s, a): s'
+- GoalTest(s): {true|false}
+- PathCost(s, a): n
+- StepCost(s, a, s'): n
+
+Terminology:
+- StateSpace {s1, s2, s3 ...}
+- Explored, Unexplored, Frontiers: the farthest path explored.
+- Breadthfirst Tree Search
+
+
+
